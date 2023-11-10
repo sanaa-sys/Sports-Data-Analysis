@@ -135,7 +135,7 @@ fig3.update_yaxes(title='Average Crowd')  # Y-axis label
 load_figure_template("darkly")
 
 app=Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
-image_path = 'assets/download.jfif'
+image_path = 'download.jfif'
 
 app.layout = dbc.Container([
     html.H1("Australian Footbal League statistics over the years", className="text-center", style = {'marginBottom':'60px', 'marginTop':'30px'}),
